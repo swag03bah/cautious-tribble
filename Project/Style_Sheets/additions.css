@@ -1,0 +1,51 @@
+/* only used for id="courses" in category-regular_courses.php */
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+.category-course-block-wrapper.hidden {
+    display: none;
+}
+.category-course-grid .all-dates-area {
+    margin-top: -1.025rem;
+}
+.more-classes-btn {
+    -webkit-text-size-adjust: 100%;
+    background-color: white !important;
+    border-top: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    display: inline-block;
+    padding: 12px 55px 12px 55px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400 !important;
+    border: 1px solid #FF770D;
+    border-top: 0;
+    background: none;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    cursor: pointer;
+    color: #FF770D;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+/* trying to limit youtube video sizes */
+.iframe-wrapper {
+    height: auto !important;
+	padding-top: 56.25% !important;
+    margin: 0 auto;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100%;
+}
+
+.iframe-wrapper iframe {
+	position: absolute !important;
+}
